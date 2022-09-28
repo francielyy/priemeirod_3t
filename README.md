@@ -1,0 +1,1 @@
+# priemeirod_3t
