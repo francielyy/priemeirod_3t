@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Jesus Maringá - Nr. 50
+Francini Braga - Nr. 07
 
 ## Conteúdo
 HTML, CSS e javascript
