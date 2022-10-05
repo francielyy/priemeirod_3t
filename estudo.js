@@ -2,7 +2,7 @@ let nome  = "Francini";
 let numero = 07;
 let turma = "D";
 let serie = "1";
-let tabuada = 15;
+let tabuada = 2;
 
 function escreva(){
 
@@ -17,3 +17,23 @@ function escreva(){
     document.write(tabuada+" x 9 = "+(tabuada*9)+"<br>");
     document.write(tabuada+" x 10 = "+(tabuada*10)+"<br>");
 } 
+function repete (){
+    for (let i = 1; i <= 10; i++){
+        document.write("Tabuada do " + i + "<br>")
+        for(let j =  1; j <= 10; j++){
+            document. write (i + " x " + i + " = "+(j*i)+ "<br>")
+        }
+       document.write("<br>");
+}
+}
+
+let lista = [ "Banana", "Lixia", "Abacate", "Fruta do conde", "Romã", "Pitaya", "Blubery" ];
+function MinhaLsita  (){
+    document.write(lista[0])
+    document.write(lista[1])
+    document.write(lista[2])
+    document.write(lista[3])
+    document.write(lista[4])
+    document.write(lista[5])
+    document.write(lista[6])
+}
