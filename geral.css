@@ -30,3 +30,15 @@ margin-bottom: 10px;
     margin-top: 10px;
     cursor: pointer;
 }
+h3{
+    color: rgb(87, 29, 163);
+}
+.calcF{
+    display: none;
+}
+#input-calcF{
+    display: none;
+}
+#input-calcF:checked + #calculadora .calcF {
+    display: block;
+}
