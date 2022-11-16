@@ -1,61 +1,72 @@
 #calculadora {
- background: #D8BFD8;
- width: 200px;
- padding: 10px;
- text-align: center;
- border-radius: 10px;
- box-shadow: blueviolet;
-}
-.spMes{
-    border-color: #7B68EE;
-    border-width: 1px;
-    border-style: dashed;
-    background: #D8BFD8;
-    color: rgb(87, 29, 163);
-    text-align: start;
+    background: rgb(216, 213, 213);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
     border-radius: 10px;
-    padding: 5px;
-    margin-top: 10px;
+    box-shadow: 5px 5px  rgb(255, 155, 172);
 }
-#calculadora input:focus{
-    background: #FFDAB9;
-color: rgb(139, 47, 182);
+
+#calculadoraESQ {
+    background: rgb(216, 213, 213);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px  lime;
+}
+
+.spMes {
+  border-color: black;
+  border-width: 1px;
+  border-style: dashed;
+  background: rgb(255, 155, 172);
+  color: #000000;
+  text-align: start;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#calculadora input:focus {
+  background: rgb(255, 155, 172);
+  color: white;
 }
 #calculadora input{
-    background: #FFE4E1;
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
+background: darkgrey;
+color: rgb(255, 155, 172);
+padding: 5px;
+border-radius: 5px;
 }
-#sptotal {
-    background:#FFDAB9;
-padding: 10px;
-border-radius: 10px;
-margin-bottom: 10px;
+#Total {
+    background:rgb(255, 155, 172);
+    color: rgb(128, 18, 36);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
-#calculadora button  {
-    background: #E0FFFF;
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-#calculadora button:hover  {
-    background: 	#7B68EE;
+#calculadora button {
+    background: rgb(255, 119, 142);
+    color: rgb(128, 18, 36);
     padding: 5px;
     border-radius: 5px;
     margin-top: 10px;
+}
+#calculadora button:hover {
+    background: rgb(255, 155, 172);
+    color: rgb(255, 119, 142);
     cursor: pointer;
 }
-h3{
-    color: rgb(87, 29, 163);
+
+h3 {
+    color: rgb(128, 18, 36);
+
 }
-.calcF{
+.calcF {
     display: none;
 }
-#input-calcF{
+#input-calcF {
     display: none;
 }
 #input-calcF:checked + #calculadora .calcF {
     display: block;
 }
-
